@@ -1,0 +1,31 @@
+{
+    "prompts": [
+        "Some things to talk about"
+    ],
+    "topics" : [
+        {
+            "title" : "What are things you like doing in your free time?",
+            "prompts" : [
+                "I like to stay home to spend most of my activities.",
+                "I am always out and about."
+            ],
+            "responses" : [
+                "Maybe just get comfortable at home to watch a nice movie.",
+                "Doing sports, exploring cafes and perhaps catch a movie in the cinema."
+            ]
+        },
+        {
+            "title" : "How would you describe yourself?",
+            "prompts" : [
+                "I am a homebody",
+                "I would describe myself an explorer",
+                "I am an extrovert and prefer interaction with big groups"
+            ],
+            "responses" : [
+                "I enjoy my time with friends at home playing boardgames.",
+                "I always try to explore hiking spots to discover places.",
+                "I am always the life of the party!"
+            ]
+        }
+    ]
+}

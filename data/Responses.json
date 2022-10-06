@@ -1,0 +1,42 @@
+{
+    "prompts": [
+        "What do you specialize in?"
+    ],
+    "topics" : [
+        {
+            "title" : "DevOps",
+            "prompts" : [
+                "I like building CI/CD pipelines.",
+                "I specialize in building cloud infrastructure as code."
+            ],
+            "responses" : [
+                "Jenkins is my best friend!",
+                "I am proficient in various Infrastructure-as-Code tools."
+            ]
+        },
+        {
+            "title" : "Appplication Development",
+            "prompts" : [
+                "I've built massive monolithic applications.",
+                "I am more of a microservices developer.",
+                "I specialize more in frontend development"
+            ],
+            "responses" : [
+                "I package my entire application in single jar file.",
+                "Microservices are the future!",
+                "I enjoy working with the UI/UX team to convert their designs into a web application"
+            ]
+        },
+        {
+            "title" : "Systems Engineer",
+            "prompts" : [
+                "I know the ins and outs of Linux systems.",
+                "Windows systems provide a better way for me to build my skills"
+            ],
+            "responses" : [
+                "Linux filesystems are easier to learn.",
+                "I like the fact that we have a visual console for Windows servers (if we enable it)"
+            ]
+        }
+    ]
+}
