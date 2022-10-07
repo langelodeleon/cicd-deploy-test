@@ -23,12 +23,12 @@ Specs:
 5. Access Docker instance through SSH then yum install docker git -y
 6. Add personal access token in GitHub if MFA is enabled in your account
 7. Clone the repo. git clone https://username@github.com/username/repo_name Or create a new repo from cloned repo.
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/langelodeleon/cicd-deploy-test.git
-git push -u origin main
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/langelodeleon/cicd-deploy-test.git
+- git push -u origin main
 8. Install nodejs inside Docker host and try to start the application
 Troubleshooting:
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
